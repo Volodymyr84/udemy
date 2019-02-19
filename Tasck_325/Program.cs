@@ -25,6 +25,7 @@ namespace Tasck_325
             Console.WriteLine("Enter the command DisplayName for display how many times must be displayed You name");
             Console.WriteLine("Enter the command SetColor set console and text color");
             Console.WriteLine("Enter the command DisplayBoxWithName display of a hollow square of ‘#’ characters with the inscription of the name inside");
+            Console.WriteLine("Enter the command Reset for reset color in CMD");
             Console.WriteLine("Enter the command Exit for exit the program");
 
             string Command;
@@ -43,37 +44,58 @@ namespace Tasck_325
                         Name = Console.ReadLine();
                         break;
                     case "DisplayName":
-                         if (Name == "")
+                        if (Name == "")
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("To get started, enter your name!");
-                            Console.ForegroundColor = ConsoleColor.White;
                         }
                         else
                         {
                             Console.WriteLine("Enter the number of repetitions (Example: 1,5,7,10)");
-                        int cout =Convert.ToInt32(Console.ReadLine());
-                       
+                            int cout = Convert.ToInt32(Console.ReadLine());
                             for (int i = 0; i < cout; i++)
                             {
                                 Console.WriteLine(Name);
                             }
                         }
+                        Console.ResetColor();
                         break;
                     case "SetColor":
                         Console.WriteLine("Please make your choice as shown in the example:");
                         Console.WriteLine("Black = 0,DarkBlue = 1,DarkGreen = 2,DarkCyan = 3,DarkRed = 4,DarkMagenta = 5,DarkYellow = 6,Gray = 7,DarkGray = 8,Blue = 9,Green = 10,Cyan = 11,Red = 12,Magenta = 13,Yellow = 14,White = 15;");
                         Console.WriteLine("Enter value for Foreground Color");
-                        string Foreground=Console.ReadLine();
+                        int color = Convert.ToInt32(Console.ReadLine());
+                        Console.ForegroundColor = (ConsoleColor)color;
                         Console.WriteLine("Enter value for Background Color ");
-                        string Background=Console.ReadLine();
-
+                        color = Convert.ToInt32(Console.ReadLine());
+                        Console.BackgroundColor = (ConsoleColor)color;
                         break;
-
-
-
+                    case "Reset":
+                        Console.ResetColor();
+                        break;
                     case "Exit":
                         Environment.Exit(0);
+                        break;
+                    case "DisplayBoxWithName":
+
+                        if (Name == "")
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("To get started, enter your name!");
+                            Console.ResetColor();
+                        }
+                        
+                        else
+                        { 
+                        string frame = "";
+                        for (int i = 0; i < Name.Length + 2; i++)
+                        {
+                            frame += "#";
+                        }
+                        Console.WriteLine(frame);
+                        Console.WriteLine($"#{Name}#");
+                        Console.WriteLine(frame);
+                        }
                         break;
                 }
             }
@@ -81,21 +103,4 @@ namespace Tasck_325
         }
     }
 }
-/*
-        Black = 0,
-        DarkBlue = 1,
-        DarkGreen = 2,
-        DarkCyan = 3,
-        DarkRed = 4,
-        DarkMagenta = 5,
-        DarkYellow = 6,
-        Gray = 7,
-        DarkGray = 8,
-        Blue = 9,
-        Green = 10,
-        Cyan = 11,
-        Red = 12,
-        Magenta = 13,
-        Yellow = 14,
-        White = 15
- */
+
