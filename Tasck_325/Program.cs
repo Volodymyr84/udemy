@@ -84,7 +84,6 @@ namespace Tasck_325
                             Console.WriteLine("To get started, enter your name!");
                             Console.ResetColor();
                         }
-                        
                         else
                         { 
                         string frame = "";
