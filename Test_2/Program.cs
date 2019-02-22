@@ -77,7 +77,7 @@ namespace Test_2
                 }
             }
 
-            Console.ReadKey();
+           // Console.ReadKey();
         }
     }
 }

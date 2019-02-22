@@ -16,7 +16,7 @@ namespace Serch_Sumbol
             {
                 Console.Write('S');
             }
-            Console.BackgroundColor = ConsoleColor.Red;
+           //Console.BackgroundColor = ConsoleColor.Red;
 
             int rectWidth = 10;
             int rectHeight = 10;
