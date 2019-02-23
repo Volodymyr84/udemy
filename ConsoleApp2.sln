@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parni_Chusla", "Parni_Chusla\Parni_Chusla.csproj", "{3621ED7E-2924-471F-A0AA-740CDA87D774}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serch_Sumbol", "Serch_Sumbol\Serch_Sumbol.csproj", "{E4A365A6-440D-4536-8805-CE6A0BF81A0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search_Sumbol_2", "Search_Sumbol_2\Search_Sumbol_2.csproj", "{7AB3A40B-40CA-4F65-8195-4A6E27AF2073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class1", "Class1\Class1.csproj", "{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{7AB3A40B-40CA-4F65-8195-4A6E27AF2073}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AB3A40B-40CA-4F65-8195-4A6E27AF2073}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AB3A40B-40CA-4F65-8195-4A6E27AF2073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,16 +10,19 @@ namespace Search_Sumbol_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetNumber(0));
+            
+            for (int i = 0; i < Console.WindowHeight* Console.WindowWidth; i++)
+            {
+                Console.Write('S');
+            }
+            int mus = Console.WindowHeight * Console.WindowWidth;
+             Random rnd = new Random();
+            int J = rnd.Next(0, mus);
+
+
+            Console.ReadKey();
+                        
         }
 
-        static int GetNumber(int n)
-        {
-            if (n == 10)
-            {
-                return 10;
-            }
-            return GetNumber(n + 1);
-        }
     }
-    }
+}
