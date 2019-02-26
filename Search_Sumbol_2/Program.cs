@@ -15,29 +15,43 @@ namespace Search_Sumbol_2
             {
                 Console.Write('S');
             }
+             int CX = Console.CursorLeft+1;
+             int CY = Console.CursorTop;
+
             int mus = Console.WindowHeight * Console.WindowWidth;
              Random rnd = new Random();
             int J = rnd.Next(0, mus);
-
+            int count =0;
             // int x = rnd.Next(Console.WindowHeight, Console.WindowWidth);
             //int y = rnd.Next(Console.WindowHeight, Console.WindowWidth);
 
             int rand = rnd.Next(0, 15);
             for (int k = 0; k <rand; k++)
             {
-                //int x = 9;
-                //int y = 10;
-                int x = rnd.Next(Console.WindowHeight, Console.WindowWidth);
-                int y = rnd.Next(Console.WindowHeight, Console.WindowWidth);
+                //int x = 46;
+                //int y = 105;
+                int x = rnd.Next(0, Console.WindowWidth);
+                int y = rnd.Next(0, Console.WindowHeight);
 
                 Console.SetCursorPosition(x, y);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write('C');
                 rand = rnd.Next(0, 15);
+                count = k;
+               
             }
 
+            
             Console.ReadKey();
-                        
+            Lastposition(CX, CY);
+            Console.Write("count of C = " + (count+1));
+            Console.ReadKey();
+
+        }
+
+        public static void Lastposition(int CX, int CY)
+        {
+          Console.SetCursorPosition(CX,CY);
         }
 
     }
