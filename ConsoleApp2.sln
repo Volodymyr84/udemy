@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search_Sumbol_2", "Search_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class1", "Class1\Class1.csproj", "{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_of_happy_tickets", "Number_of_happy_tickets\Number_of_happy_tickets.csproj", "{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8264662A-469E-4A1F-8CAB-8E93BDE5F5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
