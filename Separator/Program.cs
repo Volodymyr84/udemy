@@ -9,24 +9,25 @@ namespace Separator
             string[] separators = { ",", ".", "!", "?", ";", ":", " ", "/", "'", "|" };
             string[] a = Console.ReadLine().Split(separators, StringSplitOptions.RemoveEmptyEntries);
             int count = 1;
-            for (int i = 0; i < a.Length; i++)
-            {
-                for (int j = 1; j < a.Length; j++)
+            string[] b = new string[a.Length];
+
+                for (int i = 0; i < a.Length; i++)
                 {
-                    if (a[i] == a[j])
+                    for (int j = i + 1; j < a.Length; j++)
                     {
-                        count++;
+                        if (a[i] == a[j])
+                        {
+                            count++;
+                        }
                     }
-                }
+
                 count = 1;
-                Console.WriteLine(a[i] +"-"+ count);
+                Console.WriteLine(a[i]+"-"+ count);
             }
-            
+           
         }
     }
 }
-
-
 
 
 /*
@@ -34,4 +35,5 @@ namespace Separator
     , . : ; ? ! - " '
     Требуется посчитать, какие слова есть в этом тексте и сколько раз они встречаются. Слова вывести в алфавитном порядке в нижнем регистре в форме
     слово - КоличествоПовторений
+    https://www.videosharp.info/console/task/level=1733
  */
