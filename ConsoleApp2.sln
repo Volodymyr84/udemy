@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class1", "Class1\Class1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_of_happy_tickets", "Number_of_happy_tickets\Number_of_happy_tickets.csproj", "{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kvadrat_NxN", "Kvadrat_NxN\Kvadrat_NxN.csproj", "{A27B7B23-3ADC-4612-88EC-3D2ABA7418A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27B7B23-3ADC-4612-88EC-3D2ABA7418A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27B7B23-3ADC-4612-88EC-3D2ABA7418A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27B7B23-3ADC-4612-88EC-3D2ABA7418A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27B7B23-3ADC-4612-88EC-3D2ABA7418A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
