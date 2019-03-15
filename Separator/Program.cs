@@ -22,7 +22,16 @@ namespace Separator
                     }
 
                 count = 1;
-                Console.WriteLine(a[i]+"-"+ count);
+                for (int k = 0; k < b.Length; k++)
+                {
+                    if (b[k] == a[i])
+                        else
+                    { }
+
+                }
+                
+               
+                Console.WriteLine(a[i] + "-" + count);
             }
            
         }
