@@ -6,37 +6,40 @@ namespace Separator
     {
         static void Main(string[] args)
         {
-            string[] separators = { ",", ".", "!", "?", ";", ":", " ", "/", "'", "|" };
-            string[] a = Console.ReadLine().Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            int count = 1;
+            //string[] separators = { ",", ".", "!", "?", ";", ":", " ", "/", "'", "|" };
+            // string[] a = Console.ReadLine().Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            //string[] b = new string[a.Length];
+            // int [] c = new int [a.Length];
+            string[] a = { "a", "s", "a", "s", "a", "s" };
             string[] b = new string[a.Length];
+            int i, j;
+            int count = 0;
 
-                for (int i = 0; i < a.Length; i++)
-                {
-                    for (int j = i + 1; j < a.Length; j++)
+            for (i = 0; i < a.Length; i++)
+            {
+                    for (j = 0; j < a.Length; j++)
                     {
-                        if (a[i] == a[j])
-                        {
-                            count++;
-                        }
+                    if (a[i] == b[j])
+                    {
+                        break;
                     }
-
-                count = 1;
-                for (int k = 0; k < b.Length; k++)
-                {
-                    if (b[k] == a[i])
-                        else
-                    { }
-
-                }
-                
-               
-                Console.WriteLine(a[i] + "-" + count);
+                    if (a[i] != b[j] & b[j] == null)
+                    {
+                        b[i] = a[i];
+                    }
+                    if (a[i] == a[j])
+                        count++;
+                    }
+                    if(b[i]!=null)
+                Console.WriteLine(b[i]+"-"+ count);
+                count = 0;
             }
-           
+
+
         }
     }
 }
+
 
 
 /*
