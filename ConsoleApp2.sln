@@ -25,9 +25,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class1", "Class1\Class1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_of_happy_tickets", "Number_of_happy_tickets\Number_of_happy_tickets.csproj", "{D3603D72-9A87-474B-9E4A-F942BB6D4BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kvadrat_NxN", "Kvadrat_NxN\Kvadrat_NxN.csproj", "{A27B7B23-3ADC-4612-88EC-3D2ABA7418A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kvadrat_NxN", "Kvadrat_NxN\Kvadrat_NxN.csproj", "{A27B7B23-3ADC-4612-88EC-3D2ABA7418A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Separator", "Separator\Separator.csproj", "{1FC9107E-3C70-4B19-BFBC-E9E8B4851FD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Separator", "Separator\Separator.csproj", "{1FC9107E-3C70-4B19-BFBC-E9E8B4851FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{1FC9107E-3C70-4B19-BFBC-E9E8B4851FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC9107E-3C70-4B19-BFBC-E9E8B4851FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC9107E-3C70-4B19-BFBC-E9E8B4851FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
