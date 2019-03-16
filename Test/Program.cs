@@ -18,6 +18,7 @@ namespace Test
             c.Sort();
 
             string[] b = new string[c.Count];
+            int[] d = new int[c.Count];
 
             if (c.Count > 0)
             {
@@ -27,22 +28,26 @@ namespace Test
                     {
                         if (c[i] == b[j])
                         {
+                            count++;
                             break;
                         }
                         if (c[i] != b[j] & b[j] == null)
                         {
-                            b[i] = c[i];
+                           b[i] = c[i];
                         }
                         if (c[i] == c[j])
                         {
-                            count++;
+                          count++;
                         }
+                        d[i] = count;
                     }
-                    if (b[i] != null)
+                    
+                    if (b[i] != null | c[i] == b[i])
                     {
-                        Console.WriteLine(b[i].ToLower() + "-" + count);
+                        Console.WriteLine(b[i].ToLower() + "-" + d[i]);
+                        count = 0;
                     }
-                    count = 0;
+                    
                 }
             }
             else
