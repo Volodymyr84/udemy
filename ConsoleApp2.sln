@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kvadrat_NxN", "Kvadrat_NxN\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Separator", "Separator\Separator.csproj", "{1FC9107E-3C70-4B19-BFBC-E9E8B4851FD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inversion", "Inversion\Inversion.csproj", "{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
