@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Separator", "Separator\Sepa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{7D9BAED7-41AB-4513-92D7-DE6018CB60F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inversion", "Inversion\Inversion.csproj", "{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inversion", "Inversion\Inversion.csproj", "{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max value from square", "Max value from square\Max value from square.csproj", "{EAA92BA0-D422-43AC-A60D-3BA16A238E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "-N to N", "-N to N\-N to N.csproj", "{F941154B-FB6B-4813-8BC3-08A22627C627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA60BA8D-0369-4BBF-945E-7A17C342DFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA92BA0-D422-43AC-A60D-3BA16A238E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA92BA0-D422-43AC-A60D-3BA16A238E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA92BA0-D422-43AC-A60D-3BA16A238E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA92BA0-D422-43AC-A60D-3BA16A238E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F941154B-FB6B-4813-8BC3-08A22627C627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F941154B-FB6B-4813-8BC3-08A22627C627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F941154B-FB6B-4813-8BC3-08A22627C627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F941154B-FB6B-4813-8BC3-08A22627C627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
